@@ -6,6 +6,9 @@ from sklearn import svm
 digits = datasets.load_digits() 
 
 #Load SVM as clf
+'''https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
+If you want to learn about the gamma and C attribute
+'''
 clf = svm.SVC(gamma=0.001, C=100)
 
 #Divide data for training and testing
